@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/2.png">
+    <link rel="stylesheet" href="../pruebas/styles2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Leo Rivero | New Invoice</title>
+</head>
+<body class="formbody">
+
+    <div class="form parent">
+
+        <div class="div1">
+                <p class="titleinvoice">New Invoice</p>
+                <p class="invoicenumber"><span>#</span>00001</p>
+        </div>
+
+        <div class="div2">
+            <p class="sectiontitle">Contract Information</p>
+            <input class="firstinput" type="text" name="#" id="#" placeholder="Delivery adress">
+            <input type="date" name="#" id="#" placeholder="Delivery adress">
+        </div>
+
+        <div class="div3">
+            <p class="sectiontitle">Client Information</p>
+            <div class="div3section">
+                <input class="div3input" type="###" name="#" id="#" placeholder="Client name">
+                <button>New Client</button>
+            </div>
+            <div class="checkboxsection">
+                <input class="checkbox" type="checkbox" id="ClientPay" name="Client" value="Pay">
+                <label for="ClientPay">The person who placed the order wont pay.</label><br>
+            </div>
+            <div class="checkboxsection">
+                <input class="checkbox" type="checkbox" id="ClientVAT" name="Client" value="Pay">
+                <label for="ClientVAT">The client requires an invoice with VAT (21%)</label><br>
+            </div>
+            
+        </div>
+
+        <div class="div4">
+            <p class="sectiontitle">Items Information</p>
+            <div4 class="div4section">
+                <input class="inputitem" type="text" placeholder="Item">
+                <input class="itemnumber" type="number" placeholder="N°">
+                <button><i class='bx bx-check'></i></button>
+            </div4>
+            <button class="newitem">Add New Item</button>
+        </div>
+
+        <div class="div5">
+            <div class="amountdue">
+                <p class="textamount">Amount Due</p>
+                <p class="total">$9000</p>
+            </div>
+            <div class="finalbuttons">
+                <button class="discard">Discard</button>
+                <button class="save">Save</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
