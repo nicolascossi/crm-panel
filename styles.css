@@ -1528,7 +1528,7 @@ border-radius: 10px;
     font-size: 18px;
 }
 
-.div1 { 
+.div1-invoice { 
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -1715,6 +1715,7 @@ border-radius: 10px;
     margin-bottom: 50px;
 }
 .optionstitle {
+    margin-top: 20px;
     font-size: 20px;
 }
 

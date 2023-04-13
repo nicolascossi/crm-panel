@@ -29,18 +29,18 @@ body{
     transition: var(--tran-05); 
 }
 
-.formbody {
+.new-invoice-formbody {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.form {
+.new-invoice-form {
     background-color: white;
 }
 
 
-.parent {
+.new-invoice-parent {
     display: flex;
     flex-direction: column;
     height: 720px;
@@ -50,14 +50,14 @@ body{
     border-radius: 8px;
 }
 
-.parent button {
+.new-invoice-parent button {
     cursor: pointer;
     height: 50px;
     border-radius: 8px;
     border: none;
 }
 
-.parent input {
+.new-invoice-parent input {
     border: 2px solid #1e1e1e;
     border-radius: 6px;
     height: 50px;
@@ -68,17 +68,17 @@ body{
     
 }
 
-.checkbox {
+.new-invoice-checkbox {
     margin: 0;
     height: 10px;
     width: 10px;
 }
 
-.sectiontitle {
+.new-invoice-sectiontitle {
     font-size: 18px;
 }
 
-.div1 { 
+.new-invoice-div1 { 
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -86,50 +86,50 @@ body{
     
 }  
 
-.div1 .titleinvoice { 
+.new-invoice-div1 .new-invoice-titleinvoice { 
     font-size: 24px;
     font-weight: 600;
 
 }  
 
-.div1 .invoicenumber { 
+.new-invoice-div1 .new-invoice-invoicenumber { 
     font-size: 24px;
 } 
 
-.div1 span { 
+.new-invoice-div1 span { 
     font-weight: 600;
 } 
 
-.div2 { 
+.new-invoice-div2 { 
     
     grid-area: 2 / 1 / 3 / 2; 
 }
 
-.div2 input { 
+.new-invoice-div2 input { 
     height: 50px;
     width: 100%;
 }
-.firstinput {
+.new-invoice-firstinput {
     margin-top: 10px;
     margin-bottom: 15px;
 }
 
-.div3 { 
+.new-invoice-div3 { 
     margin-top: 15px;
     grid-area: 3 / 1 / 4 / 2; 
     
 }
-.div3 .div3section {
+.new-invoice-div3section {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
-.div3input {
+.new-invoice-div3input {
     width: 350px;
     margin-bottom: 5px;
 }
 
-.checkboxsection {
+.new-invoice-checkboxsection {
     width: 100%;
     height: 30px;
     display: flex;
@@ -137,13 +137,13 @@ body{
 
 }
 
-.checkboxsection label {
+.new-invoice-checkboxsection label {
     margin-left: 10px;
     font-size: 16px;
 }
 
 
-.div3 button {
+.new-invoice-div3 button {
     color: var(--body-color);
     background-color: #1e1e1e;
     width: 175px;
@@ -152,32 +152,32 @@ body{
     font-weight: 500;
 }
 
-.div4 { 
+.new-invoice-div4 { 
     margin-top: 10px;
     grid-area: 4 / 1 / 5 / 2; 
     
 }
 
-.div4section {
+.new-invoice-div4section {
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
 }
-.inputitem {
+.new-invoice-inputitem {
     width: 300px;
 }
 
-.newitem {
+.new-invoice-newitem {
     width: 100%;
     margin-top: 15px;
     color:var(--primary-color-light);
     font-weight: 500;
     font-size: 18px;
 }
-.itemnumber {
+.new-invoice-itemnumber {
     width: 100px;
 }
-.div4section button{
+.new-invoice-div4section button{
     display: flex;
     width: 50px;
     align-items: center;
@@ -189,12 +189,12 @@ body{
     font-size: 30px;
 }
 
-.div5 { 
+.new-invoice-div5 { 
     height: 100px;
     grid-area: 5 / 1 / 6 / 2; 
 }
 
-.amountdue {
+.new-invoice-amountdue {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -207,34 +207,34 @@ body{
     margin-top: 15px;
 }
 
-.amountdue p {
+.new-invoice-amountdue p {
     color: white;
     font-size: 20px;
 }
 
-.textamount {
+.new-invoice-textamount {
     font-weight: 500;
 }
 
-.finalbuttons {
+.new-invoice-finalbuttons {
     margin-top: 15px;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.finalbuttons button {
+.new-invoice-finalbuttons button {
     font-size: 18px;
     font-weight: 500;
 }
 
-.save {
+.new-invoice-save {
     width: 150px;
     background-color: #1e1e1e;
     color: white;
 }
 
-.discard {
+.new-invoice-discard {
     width: 150px;
     color: var(--primary-color );
 }
