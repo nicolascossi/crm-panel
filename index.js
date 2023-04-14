@@ -19,7 +19,7 @@ const newInvoice = document.querySelector ("#NewInvoiceModal")
 const modal = document.querySelector ("#modalBackground")
 newInvoice.addEventListener ("click", ( ) => {
     modal.classList.add ("show")
-    console.log("Hola")
+    
 })
 
 
@@ -27,18 +27,28 @@ modal.addEventListener ("click",(e) => {
     if (e.target === modal) modal.classList.remove ("show")
 })
 
+
+// MODAL 2
 const statuInvoice = document.querySelector ("#NewInvoiceModal2")
 
 const modal2 = document.querySelector ("#modalBackground2")
 statuInvoice.addEventListener ("click", ( ) => {
     modal2.classList.add ("show2")
-    console.log("Hola")
+     
 })
 
 
 modal2.addEventListener ("click",(e) => {
     if (e.target === modal2) modal2.classList.remove ("show2")
 })
+
+
+// MODAL 3
+
+
+
+
+
 
 
 

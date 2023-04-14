@@ -395,7 +395,7 @@ body.dark .home .text{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 30px;
     height: 80px;
     width: 1000px;
     border-radius: 4px;
@@ -602,11 +602,10 @@ padding-bottom: 120px;
 
 .newinvoice .classBox .modal{
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(7, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    
+}
+.modal {
+    width: 100%;
 }
 
 
@@ -1185,25 +1184,12 @@ border-radius: 10px;
     font-size: 20px;
 }
 
-.classBox {
-    display: flex;
-    
-    background-color: #fff;
-    border-radius: 8px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    height: 550px;
-    width: 700px;
-    background-color: white;
-    border-radius: 8px;
+
+.classBox3 {
+    height: 600px;
+    width: 750px;
 }
 
-.classBox input::placeholder {
-    padding-left: 15px;
-}
 
 .classBackground {
     position: fixed;
@@ -1243,9 +1229,10 @@ border-radius: 10px;
     display: none;
     justify-content: center;
     align-items: center;
-    
-    
+
 }
+
+
 
 .show2 {
     display: flex;
@@ -1722,4 +1709,591 @@ border-radius: 10px;
 .button1 {
     margin-right: 50px;
 }
+
+/* NEW INVOICE FINAL DESIGN */
+
+.new-invoice-formbody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-invoice-form {
+    background-color: white;
+}
+
+
+.new-invoice-parent {
+    display: flex;
+    flex-direction: column;
+    height: 720px;
+    width: 600px;
+    padding: 25px 50px;
+    background-color:white;
+    border-radius: 8px;
+}
+
+.new-invoice-parent button {
+    cursor: pointer;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+}
+
+.new-invoice-parent input {
+    border: 2px solid #1e1e1e;
+    border-radius: 6px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    color: var(--primary-color-light);
+    
+}
+
+.new-invoice-checkbox {
+    margin: 0;
+    height: 10px;
+    width: 10px;
+}
+
+.new-invoice-sectiontitle {
+    font-size: 18px;
+}
+
+.new-invoice-div1 { 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    
+}  
+
+.new-invoice-div1 .new-invoice-titleinvoice { 
+    font-size: 24px;
+    font-weight: 600;
+
+}  
+
+.new-invoice-div1 .new-invoice-invoicenumber { 
+    font-size: 24px;
+} 
+
+.new-invoice-div1 span { 
+    font-weight: 600;
+} 
+
+.new-invoice-div2 { 
+    
+    grid-area: 2 / 1 / 3 / 2; 
+}
+
+.new-invoice-div2 input { 
+    height: 50px;
+    width: 100%;
+}
+.new-invoice-firstinput {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.new-invoice-div3 { 
+    margin-top: 15px;
+    grid-area: 3 / 1 / 4 / 2; 
+    
+}
+.new-invoice-div3section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.new-invoice-div3input {
+    width: 350px;
+    margin-bottom: 5px;
+}
+
+.new-invoice-checkboxsection {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.new-invoice-checkboxsection label {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+
+.new-invoice-div3 button {
+    color: var(--body-color);
+    background-color: #1e1e1e;
+    width: 175px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.new-invoice-div4 { 
+    margin-top: 10px;
+    grid-area: 4 / 1 / 5 / 2; 
+    
+}
+
+.new-invoice-div4section {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.new-invoice-inputitem {
+    width: 300px;
+}
+
+.new-invoice-newitem {
+    width: 100%;
+    margin-top: 15px;
+    color:var(--primary-color-light);
+    font-weight: 500;
+    font-size: 18px;
+}
+.new-invoice-itemnumber {
+    width: 100px;
+}
+.new-invoice-div4section button{
+    display: flex;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1e1e;
+}
+.bx-check {
+    color: white;
+    font-size: 30px;
+}
+
+.new-invoice-div5 { 
+    height: 100px;
+    grid-area: 5 / 1 / 6 / 2; 
+}
+
+.new-invoice-amountdue {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e1e1e;
+    height: 50px;
+    border-radius: 8px;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+}
+
+.new-invoice-amountdue p {
+    color: white;
+    font-size: 20px;
+}
+
+.new-invoice-textamount {
+    font-weight: 500;
+}
+
+.new-invoice-finalbuttons {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-invoice-finalbuttons button {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.new-invoice-save {
+    width: 150px;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.new-invoice-discard {
+    width: 150px;
+    color: var(--primary-color );
+}
+
+
+/* ESTILOS VENTANA CLIENTES */
+
+.searchbar {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+.searchbar input {
+    width: 800px;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+    background-color: #EBEBEB;
+    padding-left: 20px;
+    
+}
+
+/* CLIENT MODA STYLES */
+
+.clients-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 80px;
+    width: 1000px;
+    border-radius: 4px;
+    background-color: white;
+    min-height: 80px;
+}
+
+
+
+.clients-textgrey {
+    color: var(--text-gray);
+    font-size: 20px;
+}
+
+.clients-div-1 {
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}
+
+.clients-div-2 {
+    font-size: 20px;
+}
+
+
+
+p span {
+    font-weight: 500;
+    color: #1E1E1E;
+}
+.clients-ClientName {
+    font-size: 20px;
+    font-weight: 00;
+}
+
+
+.clients-status {
+    display: flex;
+    text-decoration: none;
+    color:white;
+    border-radius: 6px;
+    padding: 10px 30px;
+    border: none;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 20px;
+    width: 185px;
+    background-color: #1E1E1E;
+    cursor: pointer;
+}
+
+.clients-status:hover {
+    border: 3px solid #1e1e1e;
+    color:#1E1E1E;
+    background-color: white;
+}
+
+.new-client-formbody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-client-form {
+    background-color: white;
+}
+
+
+.new-client-parent {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 600px;
+    padding: 25px 50px;
+    background-color:white;
+    border-radius: 8px;
+}
+
+.new-client-parent button {
+    cursor: pointer;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+}
+
+.new-client-parent input {
+    border: 2px solid #1e1e1e;
+    border-radius: 6px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    color: var(--primary-color-light);
+    
+}
+
+.new-client-checkbox {
+    margin: 0;
+    height: 10px;
+    width: 10px;
+}
+
+.new-client-sectiontitle {
+    font-size: 18px;
+}
+
+.new-client-div1 { 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    
+}  
+
+.new-client-div1 .new-client-titleclient { 
+    font-size: 24px;
+    font-weight: 600;
+
+}  
+
+.new-client-div1 .new-client-clientnumber { 
+    font-size: 24px;
+} 
+
+.new-client-div1 span { 
+    font-weight: 600;
+} 
+
+.new-client-div2 { 
+    
+    grid-area: 2 / 1 / 3 / 2; 
+}
+
+.new-client-div2 input { 
+    height: 50px;
+    width: 100%;
+}
+.new-client-firstinput {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+.new-client-div5 { 
+    height: 100px;
+    grid-area: 5 / 1 / 6 / 2; 
+}
+
+.new-client-amountdue {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e1e1e;
+    height: 50px;
+    border-radius: 8px;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+}
+
+.new-client-amountdue p {
+    color: white;
+    font-size: 20px;
+}
+
+.new-client-textamount {
+    font-weight: 500;
+}
+
+.new-client-finalbuttons {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-client-finalbuttons button {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.new-client-save {
+    width: 150px;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.new-client-discard {
+    width: 150px;
+    color: var(--primary-color );
+}
+
+
+
+/* MODAL*/
+
+.classBox3 {
+    height: 500px;
+    width: 600px;
+}
+
+.classBackground3 {
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1E1E1EAA ;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.show3 {
+    display: flex;
+}
+
+/* MODAL CLIENT STATUS STYLES */
+
+.client-status-formbody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.client-status-form {
+    background-color: white;
+}
+
+
+.client-status-parent {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 600px;
+    padding: 25px 50px;
+    background-color:white;
+    border-radius: 8px;
+}
+
+.client-status-parent button {
+    cursor: pointer;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+}
+
+.client-status-parent input {
+    border: none;
+    border-bottom: 2px solid #1e1e1e;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    
+    outline: none;
+    
+}
+
+
+.client-status-checkbox {
+    margin: 0;
+    height: 10px;
+    width: 10px;
+}
+
+.client-status-sectiontitle {
+    font-size: 18px;
+}
+
+.client-status-div1 { 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    
+}  
+
+.client-status-div1 .client-status-titleclient { 
+    font-size: 24px;
+    font-weight: 600;
+
+}  
+
+.client-status-clientnumber {
+    font-size: 24px;
+}
+
+.client-status-div1 .new-client-clientnumber { 
+    font-size: 24px;
+} 
+
+.client-status-div1 span { 
+    font-weight: 600;
+} 
+
+.client-status-div2 { 
+    
+    grid-area: 2 / 1 / 3 / 2; 
+}
+
+.client-status-div2 input { 
+    height: 50px;
+    width: 100%;
+}
+.client-status-firstinput {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+.client-status-div5 { 
+    height: 100px;
+    grid-area: 5 / 1 / 6 / 2; 
+}
+
+
+
+.client-status-finalbuttons {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.client-status-finalbuttons button {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.client-status-save {
+    width: 150px;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.client-status-discard {
+    width: 150px;
+    color: var(--primary-color );
+}
+
 
